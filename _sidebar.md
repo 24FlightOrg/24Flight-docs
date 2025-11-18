@@ -1,4 +1,4 @@
-<img src="./../unified/images/logos/24flight.png" alt="Logo" style="display:block; margin: 0 auto 10px auto; width:120px; height:auto;">
+<img src="https://24flight.org/unified/images/logos/24flight.png" alt="Logo" style="display:block; margin: 0 auto 10px auto; width:120px; height:auto;">
 
 
 * [Intro](/)
