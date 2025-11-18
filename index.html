@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>24Flight Docs</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="canonical" href="https://24flight.org">
+    <!-- OpenReplay Tracking Code for my first project -->
+    <script type="module">
+          var initOpts = {
+              projectKey: "oYAp8y8GD1iW8SlbeQDq",
+              defaultInputMode: 2,
+              obscureTextNumbers: false,
+              obscureTextEmails: false,
+          };
+          const orres = await fetch("/auth/@me");
+          const ordata = await orres.json();
+          var startOpts = { userID: ordata.username };
+          (function(A,s,a,y,e,r){
+              r=window.OpenReplay=[e,r,y,[s-1, e]];
+              s=document.createElement('script');s.src=A;s.async=!a;
+              document.getElementsByTagName('head')[0].appendChild(s);
+              r.start=function(v){r.push([0])};
+              r.stop=function(v){r.push([1])};
+              r.setUserID=function(id){r.push([2,id])};
+              r.setUserAnonymousID=function(id){r.push([3,id])};
+              r.setMetadata=function(k,v){r.push([4,k,v])};
+              r.event=function(k,p,i){r.push([5,k,p,i])};
+              r.issue=function(k,p){r.push([6,k,p])};
+              r.isActive=function(){return false};
+              r.getSessionToken=function(){};
+          })("//static.openreplay.com/latest/openreplay-assist.js",1,0,initOpts,startOpts);
+      </script>
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-KJJB7XMD');</script>
+      <!-- End Google Tag Manager -->
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
+  </head>
+  <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJJB7XMD"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        ga: 'G-VCCFR5WJ5D',
+        loadSidebar: true,
+        logo: '/unified/icons/24flight.png',
+        toc: true,
+        tocMaxLevel: 3,
+        subMaxLevel: 2,
+        coverpage: false,
+        autoHeader: true,
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+  </body>
+</html>
