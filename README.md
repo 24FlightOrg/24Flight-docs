@@ -11,8 +11,8 @@ And thanks to our other developers:
 - personguy123 - Documentation
 
 We currently offer:
-[24Pilot](https://24flight.org/docs/#/24Pilot): Our pilot suite.
-[24Controller (Unfinished)](https://24flight.org/docs/#/24Controller): Our controller suite.
+- [24Pilot](https://24flight.org/docs/#/24Pilot): Our pilot suite.
+- [24Controller (Unfinished)](https://24flight.org/docs/#/24Controller): Our controller suite.
 
 Have any questions? Want to be notified for updates? Want to just hang out with the community? [Join our discord server!](https://discord.gg/qGBJnRTQvB)
 
